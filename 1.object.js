@@ -4,7 +4,7 @@
 // key - 문자, 숫자, 문자열, 심볼
 // value - 원시값, 객체 (함수)
 let apple = {
-    name: 'apple', // 특수한 경우가 아니면 문자로 정의해주것이 좋다!
+    name: 'apple', // 특수한 경우가 아니면 문자로 정의해주는 것이 좋다!
     'hello-bye': '✋',
     0: 1,
     ['hello-bye1']: '✋',
@@ -23,3 +23,9 @@ console.log(apple['emoji']);
 // 속성 삭제
 delete apple.emoji;
 console.log(apple);
+
+let sohee = {
+    name: 'sohee',
+    age: 20,
+    job: developer,
+};
